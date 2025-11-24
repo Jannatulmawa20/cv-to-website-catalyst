@@ -1,6 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import aboutPortrait from "@/assets/profile-portrait.jpg";
 
 const About = () => {
   const highlights = [
@@ -12,32 +11,9 @@ const About = () => {
   return (
     <section id="about" className="py-20 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Image Section */}
-          <div className="relative animate-fade-in">
-            <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl blur-2xl" />
-              <div className="relative overflow-hidden rounded-3xl border-4 border-accent/30 shadow-card">
-                <img 
-                  src={aboutPortrait} 
-                  alt="About Jannatul Mawa" 
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-            </div>
-
-            {/* Decorative shapes */}
-            <div className="absolute -top-6 -right-6 w-24 h-24">
-              <svg viewBox="0 0 100 100" className="text-accent/30">
-                <circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" strokeWidth="2" />
-                <circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" strokeWidth="2" />
-              </svg>
-            </div>
-            <div className="absolute -bottom-6 -left-6 w-16 h-16 bg-gradient-accent rounded-full blur-xl opacity-50" />
-          </div>
-
+        <div className="max-w-4xl mx-auto">
           {/* Content Section */}
-          <div className="animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
+          <div className="animate-fade-in-up">
             <div className="inline-block mb-4 px-4 py-2 rounded-full bg-primary/10 border border-primary/20">
               <span className="text-sm font-medium text-primary uppercase tracking-wide">About Me</span>
             </div>
@@ -68,8 +44,9 @@ const About = () => {
             <Button 
               size="lg" 
               className="gradient-accent shadow-accent hover:shadow-accent hover:scale-105 transition-smooth"
+              asChild
             >
-              Download CV
+              <a href="/Jannatul_Mawa.pdf" download>Download CV</a>
             </Button>
           </div>
         </div>
