@@ -52,19 +52,25 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 className="gradient-accent shadow-accent hover:shadow-accent hover:scale-105 transition-smooth text-lg px-8 py-6 h-auto font-semibold group"
+                asChild
               >
-                View My Projects
-                <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
+                <a href="#projects">
+                  View My Projects
+                  <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </a>
               </Button>
               <Button 
                 size="lg" 
                 variant="outline" 
                 className="bg-primary-foreground/5 backdrop-blur-md border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:scale-105 transition-smooth text-lg px-8 py-6 h-auto font-semibold group"
+                asChild
               >
-                <Play className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-                Watch Intro
+                <a href="/Jannatul_Mawa.pdf" download>
+                  <Play className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
+                  Download CV
+                </a>
               </Button>
             </div>
 
