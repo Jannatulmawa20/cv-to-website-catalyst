@@ -1,12 +1,12 @@
 import { CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import aboutPortrait from "@/assets/about-portrait.jpg";
+import aboutPortrait from "@/assets/profile-portrait.jpg";
 
 const About = () => {
   const highlights = [
-    "8+ Complete Projects",
-    "8+ Years of Experience",
-    "Expert in ML & AI"
+    "15+ Complete Projects",
+    "6 Months of Experience",
+    "Expert in Full-Stack & AI"
   ];
 
   return (
@@ -47,18 +47,10 @@ const About = () => {
               Not Just Visuals
             </h2>
 
-            <p className="text-lg text-muted-foreground mb-6">
-              I am a passionate Software Engineer with a strong focus on backend development, 
-              artificial intelligence, and data-driven applications. My experience includes building 
-              production-ready ML models, developing full-stack applications using Python frameworks, 
-              and creating interactive dashboards through Streamlit.
-            </p>
-
             <p className="text-lg text-muted-foreground mb-8">
-              I've worked as a Support Class Instructor, Annotator, and Research Assistant, where I 
-              gained experience in data analysis, automation workflows, research implementation, and 
-              mentoring students. My goal is to leverage modern engineering practices to create scalable, 
-              intelligent systems that help businesses improve efficiency, accuracy, and user experience.
+              I specialize in full-stack web development (HTML, CSS, JavaScript, MERN stack) and have 
+              a solid foundation in Python for AI/ML development. I'm skilled in building applications 
+              that combine web development with machine learning models for dynamic, data-driven solutions.
             </p>
 
             {/* Highlights */}

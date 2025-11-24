@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Play } from "lucide-react";
-import heroPortrait from "@/assets/hero-portrait.jpg";
+import heroPortrait from "@/assets/profile-portrait.jpg";
 
 const Hero = () => {
   return (
@@ -73,14 +73,14 @@ const Hero = () => {
               <div className="group relative overflow-hidden rounded-2xl bg-primary-foreground/5 backdrop-blur-md border border-primary-foreground/10 p-6 hover:border-accent/50 transition-all hover:scale-105">
                 <div className="absolute inset-0 bg-gradient-to-br from-accent/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                 <div className="relative">
-                  <div className="text-4xl font-heading font-bold text-accent mb-1">8+</div>
-                  <div className="text-sm text-primary-foreground/70 font-medium">Years Experience</div>
+                  <div className="text-4xl font-heading font-bold text-accent mb-1">6</div>
+                  <div className="text-sm text-primary-foreground/70 font-medium">Months Experience</div>
                 </div>
               </div>
               <div className="group relative overflow-hidden rounded-2xl bg-primary-foreground/5 backdrop-blur-md border border-primary-foreground/10 p-6 hover:border-accent/50 transition-all hover:scale-105">
                 <div className="absolute inset-0 bg-gradient-to-br from-accent/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                 <div className="relative">
-                  <div className="text-4xl font-heading font-bold text-accent mb-1">50+</div>
+                  <div className="text-4xl font-heading font-bold text-accent mb-1">15+</div>
                   <div className="text-sm text-primary-foreground/70 font-medium">Projects Completed</div>
                 </div>
               </div>
@@ -113,10 +113,10 @@ const Hero = () => {
               <div className="absolute -bottom-6 -left-6 bg-card/90 backdrop-blur-md rounded-2xl shadow-card p-5 animate-float border border-accent/20">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-xl bg-gradient-accent flex items-center justify-center shadow-accent">
-                    <span className="text-xl font-bold text-accent-foreground">8+</span>
+                    <span className="text-xl font-bold text-accent-foreground">6</span>
                   </div>
                   <div>
-                    <div className="font-semibold text-card-foreground text-lg">Years</div>
+                    <div className="font-semibold text-card-foreground text-lg">Months</div>
                     <div className="text-sm text-muted-foreground">Experience</div>
                   </div>
                 </div>
